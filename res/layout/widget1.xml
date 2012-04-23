@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top" >
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"
+   		android:layout_marginTop="5dp"
+        android:background="@drawable/background_top"
+        android:text=" 03.04.2012           Parzysty "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:id="@+id/tv_tydzien"/>
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"
+        android:background="@drawable/background_bottom"
+        android:text=" Plan dla:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+         android:id="@+id/tv_plan"/>
+    
+        <TextView
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"
+        android:background="@drawable/background_listview"
+        android:maxLines="5"
+        android:textColor="#000000"
+        android:text="Grupa I1-24B, S1
+Zajęcia z Systemów Operacyjnych II laboratoria w poniedziałek (02.04) od 16 do 18 gr I1-24B zostają odwołane. ..."
+
+         android:paddingLeft="5dp" android:id="@+id/tv_zmiany"/>
+
+                <TextView
+        android:layout_width="294dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+   		android:layout_marginRight="5dp"
+        android:background="@drawable/background_listview"
+        android:maxLines="5"
+        android:textColor="#000000"
+        android:text="Grupa 23A, S1
+W związku z pełnieniem funkcji elektora w wyborach na stanowisko Rektora ZUT, odwołane zostają ..."
+
+         android:paddingLeft="5dp" android:id="@+id/tv_data"/>
+</LinearLayout>
